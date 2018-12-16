@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/fanghan/Desktop/PL_Fall18/Lecture_repo/class13/src/ptr.h
+cstring
+-
+iostream
+-
+
+/Users/fanghan/Desktop/PL_Fall18/Lecture_repo/class13/src/ptr_test.cpp
+iostream
+-
+ptr.h
+/Users/fanghan/Desktop/PL_Fall18/Lecture_repo/class13/src/ptr.h
+
